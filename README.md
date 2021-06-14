@@ -10,3 +10,5 @@ Animirano uz pomoc vpythona. Pre pokretanja instalirati paket sa komandom:
 `pip install vpython`
 
 ### Demo
+
+![demo](demo.gif)
