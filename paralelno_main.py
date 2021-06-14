@@ -1,4 +1,4 @@
-from formule_superast import teta1_tacka_tacka, teta2_tacka_tacka, fi1_tacka_tacka,\
+from formule import teta1_tacka_tacka, teta2_tacka_tacka, fi1_tacka_tacka,\
 fi2_tacka_tacka, poz1, poz2
 
 def dvostruko_sferno_klatno(l1,l2,m1,m2,fi1,fi2,teta1,teta2,fi1_tacka,
