@@ -33,17 +33,17 @@ if __name__ == '__main__':
 	#4 3 30 20 i fi1_tacka = 1, bez fixalfa
 	#-50 130 -60 -70 i teta1_tacka = 10, bez fixalfa
 
-	fi1 = np.deg2rad(-50)
-	fi2 = np.deg2rad(130)
-	teta1 = np.deg2rad(-60)
-	teta2 = np.deg2rad(-70)
+	fi1 = np.deg2rad(10)
+	fi2 = np.deg2rad(10)
+	teta1 = np.deg2rad(10)
+	teta2 = np.deg2rad(10)
 
 	#teta -> ugao sa vertikalom (2D klatno)
 	#fi -> ugao sa horizontalom
 
 	fi1_tacka = 0
-	fi2_tacka = 0
-	teta1_tacka = 10
+	fi2_tacka = 2
+	teta1_tacka = 0
 	teta2_tacka = 0
 
 	init = poz1(m1,l1,teta1,fi1)
@@ -69,7 +69,7 @@ if __name__ == '__main__':
 
 	vp.scene.camera.pos = vp.vector(0,0,0)
 
-	while t < 10:
+	while t < 100:
 		
 		vp.rate(1000)
 		
